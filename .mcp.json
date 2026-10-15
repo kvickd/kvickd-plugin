@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kvickd": {
+      "type": "http",
+      "url": "https://api.kvickd.com/mcp"
+    }
+  }
+}

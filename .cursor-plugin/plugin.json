@@ -1,0 +1,15 @@
+{
+  "name": "kvickd",
+  "version": "1.0.0",
+  "description": "Swedish bookkeeping for small companies, run by your AI.",
+  "author": {
+    "name": "Kvickd",
+    "email": "hello@kvickd.com"
+  },
+  "homepage": "https://www.kvickd.com",
+  "repository": "https://github.com/kvickd/kvickd-plugin",
+  "license": "MIT",
+  "keywords": ["bookkeeping", "accounting", "sweden", "bokforing", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
