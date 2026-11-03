@@ -7,6 +7,10 @@ description: Swedish bookkeeping for limited companies (aktiebolag) in Kvickd. U
 
 Kvickd is a hosted bookkeeping service for small Swedish limited companies (aktiebolag, K2). This skill uses the tools of the `kvickd` MCP server. The user signs in with OAuth; never ask for an API key or password.
 
+## Setup
+
+This skill needs the Kvickd MCP server at `https://api.kvickd.com/mcp` (Streamable HTTP, OAuth sign-in). Create a free account at [kvickd.com](https://www.kvickd.com), then follow the connection guide and full tool reference in the [Kvickd MCP documentation](https://www.kvickd.com/mcp).
+
 ## Rules
 
 1. **Choose the company first.** Start every session with `list_companies`. If the user has more than one company, ask which one to work in before doing anything else. Never assume a company.

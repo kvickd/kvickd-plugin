@@ -1,10 +1,10 @@
 # Kvickd plugin
 
-Swedish bookkeeping for small companies, run by your AI.
+Swedish bookkeeping for small companies, with your AI.
 
 [Kvickd](https://www.kvickd.com) is a hosted bookkeeping service for small Swedish limited companies (aktiebolag). This repository connects AI agents to the Kvickd MCP server so you can book vouchers, handle invoices, VAT, payroll and year-end closing through conversation.
 
-It contains an MCP server configuration, plugin manifests for Claude Code, Cursor, Codex and the [`plugins`](https://www.npmjs.com/package/plugins) CLI, and a skill with bookkeeping rules for the agent.
+It contains an MCP server configuration, plugin manifests for Claude Code, Codex, Cursor and the [`plugins`](https://www.npmjs.com/package/plugins) CLI, and a skill with bookkeeping rules for the agent.
 
 MCP server URL:
 
@@ -16,7 +16,7 @@ Sign-in happens with OAuth in your browser the first time the agent connects. No
 
 ## Installation
 
-### Plugin (Claude Code, Cursor, Codex and more)
+### Plugin (Claude Code, Codex, Cursor and more)
 
 ```bash
 npx plugins add kvickd/kvickd-plugin
@@ -32,13 +32,19 @@ npx skills add kvickd/kvickd-plugin
 
 Add the server URL in your client:
 
-- **Claude** (claude.ai and Claude Desktop): Settings → Connectors → Add custom connector, and paste the URL. In Claude Code:
+- **Claude** (claude.ai and Claude Desktop): Kvickd is in [Claude's connector directory](https://claude.ai/directory/kvickd). Open it, click Connect and sign in. In Claude Code:
 
   ```bash
   claude mcp add --transport http kvickd https://api.kvickd.com/mcp
   ```
 
-- **ChatGPT**: Settings → Apps & Connectors, create a custom connector (developer mode) and paste the URL.
+- **ChatGPT**: add Kvickd as a custom plugin. On chatgpt.com, go to Plugins, Add, Create custom MCP server, and paste the URL. Creating a custom plugin requires ChatGPT Go, Plus or Pro. Step by step: [www.kvickd.com/guider/koppla-chatgpt](https://www.kvickd.com/guider/koppla-chatgpt)
+
+- **Codex**:
+
+  ```bash
+  codex mcp add kvickd --url https://api.kvickd.com/mcp
+  ```
 
 - **Cursor**: add this to `~/.cursor/mcp.json`:
 
@@ -52,17 +58,11 @@ Add the server URL in your client:
   }
   ```
 
-- **Codex**:
-
-  ```bash
-  codex mcp add kvickd --url https://api.kvickd.com/mcp
-  ```
-
 More details: [www.kvickd.com/mcp](https://www.kvickd.com/mcp)
 
 ## På svenska
 
-Kvickd är bokföring för små svenska aktiebolag, skött av din AI. Det här repot kopplar AI-agenter som Claude, ChatGPT, Cursor och Codex till Kvickds MCP-server. Installera med `npx plugins add kvickd/kvickd-plugin`, eller lägg till adressen `https://api.kvickd.com/mcp` som anpassad koppling i din klient. Du loggar in med ditt Kvickd-konto första gången. Mer information finns på [www.kvickd.com/mcp](https://www.kvickd.com/mcp).
+Kvickd är bokföring för små svenska aktiebolag, med hjälp av din AI. Det här repot kopplar AI-agenter som Claude, ChatGPT, Codex och Cursor till Kvickds MCP-server. Installera med `npx plugins add kvickd/kvickd-plugin`, eller lägg till adressen `https://api.kvickd.com/mcp` som anpassad koppling i din klient. Du loggar in med ditt Kvickd-konto första gången. Mer information finns på [www.kvickd.com/mcp](https://www.kvickd.com/mcp).
 
 ## License
 

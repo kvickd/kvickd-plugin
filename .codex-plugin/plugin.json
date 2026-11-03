@@ -1,7 +1,7 @@
 {
   "name": "kvickd",
   "version": "1.0.0",
-  "description": "Swedish bookkeeping for small companies, run by your AI.",
+  "description": "Swedish bookkeeping for small companies, with your AI.",
   "author": {
     "name": "Kvickd",
     "email": "hello@kvickd.com",
@@ -15,7 +15,7 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Kvickd",
-    "shortDescription": "Swedish bookkeeping for small companies, run by your AI.",
+    "shortDescription": "Swedish bookkeeping for small companies, with your AI.",
     "longDescription": "Connects Codex to Kvickd, a hosted bookkeeping service for small Swedish limited companies (aktiebolag). Book vouchers, handle invoices, VAT, payroll and year-end closing through conversation. Sign in with OAuth; no API key needed.",
     "developerName": "Kvickd",
     "category": "Productivity",
