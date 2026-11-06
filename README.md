@@ -2,7 +2,7 @@
 
 Swedish bookkeeping for small companies, with your AI.
 
-[Kvickd](https://www.kvickd.com) is a hosted bookkeeping service for small Swedish limited companies (aktiebolag). This repository connects AI agents to the Kvickd MCP server so you can book vouchers, handle invoices, VAT, payroll and year-end closing through conversation.
+[Kvickd](https://www.kvickd.com) is a hosted bookkeeping service for small Swedish companies: limited companies (aktiebolag), sole traders (enskild firma) and partnerships (handelsbolag, kommanditbolag). This repository connects AI agents to the Kvickd MCP server so you can book vouchers, handle invoices, VAT, payroll, year-end closing and tax returns (INK2, NE-bilaga, INK4) through conversation.
 
 It contains an MCP server configuration, plugin manifests for Claude Code, Codex, Cursor and the [`plugins`](https://www.npmjs.com/package/plugins) CLI, and a skill with bookkeeping rules for the agent.
 
@@ -62,7 +62,7 @@ More details: [www.kvickd.com/mcp](https://www.kvickd.com/mcp)
 
 ## På svenska
 
-Kvickd är bokföring för små svenska aktiebolag, med hjälp av din AI. Det här repot kopplar AI-agenter som Claude, ChatGPT, Codex och Cursor till Kvickds MCP-server. Installera med `npx plugins add kvickd/kvickd-plugin`, eller lägg till adressen `https://api.kvickd.com/mcp` som anpassad koppling i din klient. Du loggar in med ditt Kvickd-konto första gången. Mer information finns på [www.kvickd.com/mcp](https://www.kvickd.com/mcp).
+Kvickd är bokföring för små svenska företag (aktiebolag, enskild firma, handelsbolag och kommanditbolag), med hjälp av din AI. Det här repot kopplar AI-agenter som Claude, ChatGPT, Codex och Cursor till Kvickds MCP-server. Installera med `npx plugins add kvickd/kvickd-plugin`, eller lägg till adressen `https://api.kvickd.com/mcp` som anpassad koppling i din klient. Du loggar in med ditt Kvickd-konto första gången. Mer information finns på [www.kvickd.com/mcp](https://www.kvickd.com/mcp).
 
 ## License
 

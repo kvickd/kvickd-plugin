@@ -1,11 +1,11 @@
 ---
 name: kvickd
-description: Swedish bookkeeping for limited companies (aktiebolag) in Kvickd. Use when the user wants to book vouchers (verifikat), handle customer or supplier invoices, VAT (moms), payroll (lön), reconciliation, year-end closing (bokslut), INK2 or the annual report (årsredovisning) through the Kvickd MCP server.
+description: Swedish bookkeeping in Kvickd for limited companies (aktiebolag), sole traders (enskild firma) and partnerships (handelsbolag, kommanditbolag). Use when the user wants to book vouchers (verifikat), handle customer or supplier invoices, VAT (moms), payroll (lön), reconciliation, year-end closing (bokslut, årsbokslut), tax returns (INK2, NE-bilaga, INK4) or the annual report (årsredovisning) through the Kvickd MCP server.
 ---
 
 # Kvickd
 
-Kvickd is a hosted bookkeeping service for small Swedish limited companies (aktiebolag, K2). This skill uses the tools of the `kvickd` MCP server. The user signs in with OAuth; never ask for an API key or password.
+Kvickd is a hosted bookkeeping service for small Swedish companies: limited companies (aktiebolag, K2), sole traders (enskild firma) and partnerships (handelsbolag, kommanditbolag). This skill uses the tools of the `kvickd` MCP server. The user signs in with OAuth; never ask for an API key or password.
 
 ## Setup
 

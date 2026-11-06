@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "Kvickd",
     "shortDescription": "Swedish bookkeeping for small companies, with your AI.",
-    "longDescription": "Connects Codex to Kvickd, a hosted bookkeeping service for small Swedish limited companies (aktiebolag). Book vouchers, handle invoices, VAT, payroll and year-end closing through conversation. Sign in with OAuth; no API key needed.",
+    "longDescription": "Connects Codex to Kvickd, a hosted bookkeeping service for small Swedish companies: limited companies (aktiebolag), sole traders (enskild firma) and partnerships (handelsbolag, kommanditbolag). Book vouchers, handle invoices, VAT, payroll, year-end closing and tax returns through conversation. Sign in with OAuth; no API key needed.",
     "developerName": "Kvickd",
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
